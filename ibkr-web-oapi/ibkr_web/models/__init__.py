@@ -49,7 +49,7 @@ from .account_support_type_type import AccountSupportTypeType
 from .accredited_investor import AccreditedInvestor
 from .accredited_investor_information import AccreditedInvestorInformation
 from .ach_details import ACHDetails
-from .ach_instruction import ACHInstruction, AchInstruction
+from .ach_instruction import AchInstruction
 from .ach_instruction_account_type import ACHInstructionAccountType
 from .ach_instruction_ach_type import AchInstructionAchType
 from .ach_instruction_bank_instruction_code import AchInstructionBankInstructionCode
@@ -919,7 +919,6 @@ __all__ = (
     "AccreditedInvestor",
     "AccreditedInvestorInformation",
     "ACHDetails",
-    "ACHInstruction",
     "AchInstruction",
     "ACHInstructionAccountType",
     "AchInstructionAchType",
